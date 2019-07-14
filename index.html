@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+	<title>RESULT APP</title>
+	<link rel="stylesheet" type="text/css" href="css/maincss.css">
+  
+   
+
+</head>
+<body>
+
+   
+   
+
+	 <div id="HTMLtoPDF">
+  
+	<h1 id="topic"><img src="css/img/focused logo.png" width="40px"> FOCUSED LIFE INTERNATIONAL SCHOOLS, IYIN-EKITI (FLIS)</h1>
+	<p id="listed"><b>website:</b>www.focusedlifeintlschool.blogspot.com.ng <b>Email:</b>focusedlifeinternationalsch@gmail.com</p>
+	<p id="listed"><b>Tel:</b>07062419471, 08034465225, 07065257216</p>
+	<p id="sidelist" style="text-align: left; font-size: 17px;"><b>Session:</b>2018/2019</p>
+  <p id="sidelist" style="text-align: left;font-size: 17px;"><b>Attendance:</b>2018/2019</p>
+   <p id="sidelist" style="text-align: left;font-size: 17px;"><b>Name:</b><input type="text" style="font-size: 20px; font-weight: bold; font-family:bookman old style; " name="txt"></p>
+  <p id="sidelist" style="text-align: right;font-size: 17px;  "><b>Term:</b><input type="text" style="font-size: 16px; font-weight: bold; font-family:bookman old style; " name="txt"></p>
+  <p id="sidelist" style="text-align: right;font-size: 17px;  "><b>Class:</b><input type="text" style="font-size: 16px; font-weight: bold; font-family:bookman old style; " name="txt"></p>
+  
+  <div id="image">
+
+    
+  </div>
+	  <div>
+      
+    
+  <table style="width:100%; height: 40%;  ">
+  <tr>
+    <th>SUBJECTS</th>
+    <th >Test 1 <br>(10)</th> 
+    <th>Test 2 <br>(10)</th>
+    <th>Ass<br>(10)</th>
+    <th>Exam <br>(70)</th> 
+    <th>Total <br>(100)</th>
+    <th>Cumm B/F<br>(100)</th>
+    <th>Cumm Score<br>(100) </th> 
+    <th>Class Ave</th>
+    <th>Grades</th>
+    <th>Position</th> 
+    <th>Remarks</th>
+  </tr>
+
+  <tr>
+     
+    <td style="text-align: left;">English Language </td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enter(event);" id="e1" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)"onclick="enter(event);" id="e2" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)" onclick="enter(event);" id="e3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enter(event);" id="e4" ></textarea></td>
+	<td><textarea readonly   id="etotal" ></textarea></td>
+	<td><textarea onclick="enter(event);" onkeyup="numbersOnly(this)" id="ecumm" ></textarea></td>
+    <td><textarea  readonly="true"   onkeyup="numbersOnly(this)" id="ecumscore" ></textarea></td>
+	<td><textarea   ></textarea></td>
+	<td><textarea readonly   id="egrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+	<td id="eremarks" > </td>
+  </tr>
+
+  <tr>
+    <td style="text-align: left;">Yoruba Language</td>
+   <td><textarea onkeyup="numbersOnly(this)" onclick="enterYoruba(event);" id="y1" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)"onclick="enterYoruba(event);" id="y2" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)" onclick="enterYoruba(event);" id="y3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterYoruba(event);" id="y4" ></textarea></td>
+	<td><textarea readonly   id="ytotal" ></textarea></td>
+	<td><textarea onclick="enterYoruba(event);" onkeyup="numbersOnly(this)" id="ycumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="ycumscore" ></textarea></td>
+	<td><textarea></textarea></td>
+	<td><textarea readonly   id="ygrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+	<td id="yremarks" > </td>
+  </tr>
+  <tr>
+   
+   <td style="text-align: left;">French Language</td>
+   <td><textarea onkeyup="numbersOnly(this)" onclick="enterFrench(event);" id="f1" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)"onclick="enterFrench(event);" id="f2" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)" onclick="enterFrench(event);" id="f3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterFrench(event);" id="f4" ></textarea></td>
+	<td><textarea readonly   id="ftotal" ></textarea></td>
+	<td><textarea onclick="enterFrench(event);" onkeyup="numbersOnly(this)" id="fcumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="fcumscore" ></textarea></td>
+	<td><textarea     ></textarea></td>
+	<td><textarea readonly   id="fgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+	<td id="fremarks" > </td>
+  </tr>
+  <tr>
+    <td style="text-align: left;">Mathematics</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterMath(event);" id="m1" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)"onclick="enterMath(event);" id="m2" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)" onclick="enterMath(event);" id="m3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterMath(event);" id="m4" ></textarea></td>
+	<td><textarea readonly   id="mtotal" ></textarea></td>
+	<td><textarea onclick="enterMath(event);" onkeyup="numbersOnly(this)" id="mcumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="mcumscore" ></textarea></td>
+	<td><textarea></textarea></td>
+	<td><textarea readonly   id="mgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+	<td id="mremarks" > </td>
+  </tr>
+  <tr>
+    <td style="text-align: left;">Business Studies</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterBusiness(event);" id="b1" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)"onclick="enterBusiness(event);" id="b2" ></textarea></td>
+	<td><textarea onkeyup="numbersOnly(this)" onclick="enterBusiness(event);" id="b3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterBusiness(event);" id="b4" ></textarea></td>
+	<td><textarea readonly id="btotal" ></textarea></td>
+	<td><textarea   onkeyup="numbersOnly(this)" id="bcumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="bcumscore" ></textarea></td>
+	<td><textarea></textarea></td>
+	<td><textarea readonly id="bgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+	<td id="bremarks" > </td>
+  </tr>
+  <tr>
+    <td style="text-align: left;">Social Studies</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterSocial(event);" id="s1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterSocial(event);" id="s2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterSocial(event);" id="s3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterSocial(event);" id="s4" ></textarea></td>
+  <td><textarea readonly  id="stotal" ></textarea></td>
+  <td><textarea   onkeyup="numbersOnly(this)" id="scumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="scumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly id="sgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="sremarks" > </td>
+  </tr>
+   
+  	<tr>
+   <td style="text-align: left;">Christian Religous Studies</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterChris(event);" id="c1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterChris(event);" id="c2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterChris(event);" id="c3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterChris(event);" id="c4" ></textarea></td>
+  <td><textarea readonly  id="ctotal" ></textarea></td>
+  <td><textarea   onkeyup="numbersOnly(this)" id="ccumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="ccumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="cgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="cremarks" > </td>
+  </tr>
+  <tr>
+    <td style="text-align: left;">Agricultural Science</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterAgric(event);" id="a1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterAgric(event);" id="a2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterAgric(event);" id="a3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterAgric(event);" id="a4" ></textarea></td>
+  <td><textarea readonly   id="atotal" ></textarea></td>
+  <td><textarea   onkeyup="numbersOnly(this)" id="acumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="acumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly  id="agrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="aremarks" > </td>
+  </tr>
+  <tr>
+    <td style="text-align: left;">Basic Science</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterBasic(event);" id="ba1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterBasic(event);" id="ba2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterBasic(event);" id="ba3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterBasic(event);" id="ba4" ></textarea></td>
+  <td><textarea readonly  id="batotal" ></textarea></td>
+  <td><textarea   onkeyup="numbersOnly(this)" id="bacumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="bacumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="bagrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="baremarks" > </td>
+  </tr>
+  <tr>
+    <td style="text-align: left;">Basic Technology</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterTech(event);" id="t1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterTech(event);" id="t2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterTech(event);" id="t3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterTech(event);" id="t4" ></textarea></td>
+  <td><textarea readonly   id="ttotal" ></textarea></td>
+  <td><textarea   onkeyup="numbersOnly(this)" id="tcumm" ></textarea></td>
+    <td><textarea  readonly  id="tcumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="tgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="tremarks" > </td>
+  </tr>
+   
+  	<tr>
+    <td style="text-align: left;">Computer Science</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterCom(event);" id="co1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterCom(event);" id="co2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterCom(event);" id="co3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterCom(event);" id="co4" ></textarea></td>
+  <td><textarea readonly   id="cototal" ></textarea></td>
+  <td><textarea  onkeyup="numbersOnly(this)" id="cocumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="cocumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="cogrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="coremarks" > </td>
+  </tr>
+   
+  <tr>
+    <td style="text-align: left;">Creative and Cultural Art</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterCreat(event);" id="cr1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterCreat(event);" id="cr2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterCreat(event);" id="cr3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterCreat(event);" id="cr4" ></textarea></td>
+  <td><textarea readonly   id="crtotal" ></textarea></td>
+  <td><textarea  onkeyup="numbersOnly(this)" id="crcumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="crcumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="crgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td id="crremarks" > </td>
+  </tr>
+  <tr>
+     
+    <td style="text-align: left;">Civic Education</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterCivic(event);" id="ci1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterCivic(event);" id="ci2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterCivic(event);" id="ci3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterCivic(event);" id="ci4" ></textarea></td>
+  <td><textarea readonly   onclick="enterCivic(event);" id="citotal" ></textarea></td>
+  <td><textarea  onkeyup="numbersOnly(this)" onclick="enterCivic(event);" id="cicumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="cicumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="cigrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td style="font-weight: bold;" id="ciremarks" > </td>
+  </tr>
+  <tr>
+     
+    <td style="text-align: left; font-weight: bold;">Home Economics</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterHome(event);" id="h1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterHome(event);" id="h2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterHome(event);" id="h3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterHome(event);" id="h4" ></textarea></td>
+  <td><textarea readonly   id="htotal" ></textarea></td>
+  <td><textarea  onkeyup="numbersOnly(this)" id="hcumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="hcumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td><textarea readonly   id="hgrades" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)"   ></textarea></td>
+  <td style="font-weight: bold;" id="hremarks" > </td>
+  </tr>
+  <tr>
+  	
+    
+    <td style="text-align: left;font-weight: bold;">Physical and Health Education</td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterPhysical(event);" id="p1" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)"onclick="enterPhysical(event);" id="p2" ></textarea></td>
+  <td><textarea onkeyup="numbersOnly(this)" onclick="enterPhysical(event);" id="p3" ></textarea></td>
+    <td><textarea onkeyup="numbersOnly(this)" onclick="enterPhysical(event);" id="p4" ></textarea></td>
+  <td><textarea readonly   id="ptotal" ></textarea></td>
+  <td><textarea  onkeyup="numbersOnly(this)" id="pcumm" ></textarea></td>
+    <td><textarea  readonly onkeyup="numbersOnly(this)" id="pcumscore" ></textarea></td>
+  <td><textarea></textarea></td>
+  <td style="font-weight: bold;" id="pgrades" > </td>
+    <td><textarea onkeyup="numbersOnly(this)"></textarea></td>
+  <td style="font-weight: bold;" id="premarks" > </td>
+  </tr>
+    
+</table>
+   
+   <table id="downtable" style="float: left;   margin-top: 50px;">
+    <tr>
+    <th>AFFECTIVE DISPOSITION</th>
+    <th >5</th> 
+    <th>4</th>
+    <th>3</th>
+    <th>2</th> 
+    <th>1</th>
+  </tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+  <tr>
+  <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+    
+  </tr>
+
+     
+   </table>
+
+
+   <table id="downtable1" style="float: left; margin-top: 50px; margin-left:30%;">
+     <tr>
+    <th>AFFECTIVE DISPOSITION</th>
+    <th >5</th> 
+    <th>4</th>
+    <th>3</th>
+    <th>2</th> 
+    <th>1</th>
+  </tr>
+   <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+   <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+   <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+   <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+   <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+   <td style="text-align: left;">Attentiveness </td>
+    <td><textarea></textarea></td>
+  <td><textarea ></textarea></td>
+  <td><textarea></textarea></td>
+    <td><textarea ></textarea></td>
+   <td><textarea ></textarea></td>
+  </tr>
+     
+   </table>
+
+   
+   
+             
+             
+               
+
+
+ 
+
+   </div>
+   <br>
+   <br>
+    <br>
+     <br>
+      <br>
+       <br>
+        <br>
+         <br>
+          <br>
+           <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+             
+   
+
+ <div> <p style="float: left; margin-left: 10%;">Class Teachers Comment: </p> </div>
+  <button id="btn" style="font-size: 15px;  font-weight: bold;"  onclick="window.print()">Print</button>
+
+  
+ 
+ 
+ 
+		 
+		  
+		 
+		
+		  
+	 
+	 
+	 
+	 <script type="text/javascript" src="mainresult.js"></script>
+   
+
+
+</body>
+</html>

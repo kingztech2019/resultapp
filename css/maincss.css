@@ -1,0 +1,73 @@
+table, th,td {
+  border: 1px solid black;
+  font-weight: bold;
+
+}
+@page{
+	size: a3 portrait;
+	margin-top: -0cm;
+	 
+}
+
+
+textarea{
+	width: 29px;
+	height: 15px;
+	overflow: hidden;
+	resize: none;
+	border: none;
+	font-size: 15px;
+	text-align: center;
+	padding: 2px;
+	font-weight: bold;
+}
+#topic{
+	font-size: 18px;
+	text-align: center;
+	font-family: 'bookman old style';
+
+}
+#listed{
+	text-align: center;
+	font-family: 'bookman old style';
+}
+#egrades{
+	color:blue;
+}
+#eremarks{
+	color:blue;
+}
+div{
+	background-image: url('img/focused.png');
+	 
+	background-repeat: no-repeat;
+	 
+	margin-left: auto;
+	margin-right: auto;
+	 text-align: center;
+	 
+	background-position: center;
+
+	 
+}
+@media print{
+	table, th{
+   font-size: 15px;
+  page-break-inside: avoid;
+ 
+}
+  
+title{
+	display:none;
+}
+#topic{
+	font-size: 18px;
+	text-align: center;
+	font-family: 'bookman old style';
+
+}
+#downtable1{
+	margin-left: 10% !important;
+}
+
+  }
