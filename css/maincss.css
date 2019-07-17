@@ -61,7 +61,7 @@ title{
 	display:none;
 }
 #topic{
-	font-size: 18px;
+	font-size: 24px;
 	text-align: center;
 	font-family: 'bookman old style';
 
@@ -69,5 +69,59 @@ title{
 #downtable1{
 	margin-left: 10% !important;
 }
+ #comment{
+	 
+	margin-left: -10%;
+
+	}
+	       
+	#check{
+	 
+	margin-right: -10%;
+
+	}
+	#check1{
+	 
+	margin-right: -10%;
+
+	} 
+	 #sign{
+	 	margin-right: -25%;
+	 	 
+	 }
+	 #comment1{
+	 	margin-right: -4%;
+	 }
+	 #btn{
+	 	display: none;
+	 }
+	  
 
   }
+  @media screen and (max-width: 459px) {
+	 
+	  table, th,td {
+	  	width: 100%;
+  border: 1px solid black;
+  font-weight: bold;
+  height: 40%;
+
+}
+#HTMLtoPDF{
+	width: 100%;
+}
+#sidelist{
+	width: 100%;
+	text-align: left;
+	font-size: 17px;
+}
+ 
+
+
+ 
+
+ 
+
+     
+
+}
