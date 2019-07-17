@@ -82,7 +82,7 @@ title{
 	}
 	#check1{
 	 
-	margin-right: -10%;
+	margin-right: -13%;
 
 	} 
 	 #sign{
@@ -115,7 +115,10 @@ title{
 	text-align: left;
 	font-size: 17px;
 }
- 
+ #lowtext{
+ 	font-size: 12px;
+ 	width: 100%;
+ }
 
 
  
